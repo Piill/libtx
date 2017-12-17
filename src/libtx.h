@@ -14,5 +14,5 @@ void libtx_write(char data);
 void libtx_write_string(char* string);
 
 //Setup the pin
-void setup();
+void libtx_setup();
 #endif

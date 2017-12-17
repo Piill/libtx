@@ -10,6 +10,7 @@ It uses the basic [8-N-1](https://en.wikipedia.org/wiki/8-N-1) configuration.
 ## Usage
 
 Simply copy the sources to your project and include the header.
+Use the function `libtx_setup` first to setup the registers.
 Use `libtx_write` to send a byte or `libtx_write_string` to send a NULL-terminated string.
 
 

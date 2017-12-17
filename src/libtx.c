@@ -5,7 +5,7 @@ const int _delay = 1000000/BAUDRATE;
 
 // Set TXPIN as output, and set the output to 1
 // When idle, the TXPIN should always be 1, as per protocol
-void setup() {
+void libtx_setup() {
 	DDRB |= _BV(TXPIN);
 	PORTB |= _BV(TXPIN);
 }
