@@ -10,7 +10,9 @@ It uses the basic [8-N-1](https://en.wikipedia.org/wiki/8-N-1) configuration.
 ## Usage
 
 Simply copy the sources to your project and include the header.
-Use `libtx_write` to send a byte og `libtx_write_string` to send a NULL-terminated string.
+Use `libtx_write` to send a byte or `libtx_write_string` to send a NULL-terminated string.
+
+
 To change the baudrate or tx-pin, change the definitions in the header file.
 
 # License
