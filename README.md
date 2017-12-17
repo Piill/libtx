@@ -1,11 +1,11 @@
-#Libtx
+# Libtx
 
 Libtx is a simple bit-banged UART lib for the ATTiny85.
 As the name suggests, it's only for outputting data.
 
 It's main usage is to delp me create other, more exiting products.
 
-#License
+# License
 
 MIT License
 
